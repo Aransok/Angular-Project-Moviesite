@@ -1,12 +1,13 @@
 footer {
-    background-color: #000; /* adjust color as needed */
-    color: #fff; /* adjust color as needed */
+    background-color: #000; 
+    color: #fff; 
     text-align: center;
     padding: 5px 0;
   }
   footer p{
     opacity: 0.5;
   }
+
   footer {
     position: fixed;
     bottom: 0;
@@ -17,3 +18,5 @@ footer {
     padding: 10px 20px;
     text-align: center;
   }
+
+
