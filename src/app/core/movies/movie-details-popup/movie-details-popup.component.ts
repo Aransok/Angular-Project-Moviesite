@@ -16,14 +16,11 @@ export class MovieDetailsPopupComponent {
   }
   getYouTubeEmbedUrl(trailerUrl: string | undefined): SafeResourceUrl | undefined {
     if (trailerUrl) {
-      // Extract YouTube video ID from the trailer URL
       const videoId = getYouTubeVideoId(trailerUrl);
-      // Construct the YouTube embed URL
       const embedUrl = `https://www.youtube.com/embed/${videoId}`;
-      // Sanitize the URL to prevent security risks
       return this.sanitizer.bypassSecurityTrustResourceUrl(embedUrl);
     } else {
-      return undefined; // Return undefined if no trailer URL is provided
+      return undefined; 
     }
   }
   

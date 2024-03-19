@@ -1,18 +1,22 @@
 .container {
-    max-width: 1200px;
+    
     margin: 0 auto;
+    background-color: #141414;
+    color: white;
   }
   
   .movie-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
+    gap: 0.1em;
+    padding-bottom: 20px;
   }
   
   .movie {
-    border: 1px solid #ccc;
+    
     padding: 10px;
     text-align: center;
+    cursor: pointer;
   }
   
   .movie img {

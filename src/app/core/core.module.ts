@@ -6,6 +6,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomeComponent } from './home/home.component';
 import { MovieDetailsPopupComponent } from './movies/movie-details-popup/movie-details-popup.component';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 
 
 
@@ -16,10 +17,12 @@ import { MovieDetailsPopupComponent } from './movies/movie-details-popup/movie-d
     AboutUsComponent,
     ContactUsComponent,
     HomeComponent,
-    MovieDetailsPopupComponent
+    MovieDetailsPopupComponent,
+
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     LoginComponent

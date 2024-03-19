@@ -22,4 +22,5 @@ export class HomeComponent implements OnInit {
   closeMovieDetails(): void {
     this.selectedMovie = null;
   }
+  
 }

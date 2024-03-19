@@ -1,5 +1,5 @@
 <div class="movie-details-popup">
-  <span class="close-icon" (click)="closeMovieDetails()">⬅️</span>
+  <button class="close-icon" (click)="closeMovieDetails()">+</button>
 
   <div class="popup-content">
     <ng-container *ngIf="getYouTubeEmbedUrl(movie.Trailer)">
