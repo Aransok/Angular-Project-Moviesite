@@ -1,7 +1,7 @@
 .container {
-    
+    padding-bottom: 20px;
     margin: 0 auto;
-    background-color: #141414;
+    background-image:linear-gradient(rgba(121, 18, 18, 0.6), rgba(0, 0, 0, 2)),url(./../images/RT_300EssentialMovies_700X250.jpg);
     color: white;
   }
   
